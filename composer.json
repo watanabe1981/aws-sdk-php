@@ -1,9 +1,9 @@
 {
-    "name": "aws/aws-sdk-php",
-    "homepage": "http://aws.amazon.com/sdkforphp",
-    "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
-    "keywords": ["aws","amazon","sdk","s3","ec2","dynamodb","cloud","glacier"],
+    "name": "watanabe1981/aws-sdk-php",
     "type": "library",
+    "homepage": "https://github.com/watanabe1981/aws-sdk-php",
+    "description": "Fork AWS SDK for PHP - Use Amazon Web Services in your PHP project",
+    "keywords": ["aws","amazon","sdk","s3","ec2","dynamodb","cloud","glacier"],
     "license": "Apache-2.0",
     "authors": [
         {
@@ -11,9 +11,8 @@
             "homepage": "http://aws.amazon.com"
         }
     ],
-    "support": {
-        "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
-        "issues": "https://github.com/aws/aws-sdk-php/issues"
+    "config": {
+        "vendor-dir": "fuel/vendor"
     },
     "require": {
         "php": ">=5.5",
